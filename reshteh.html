@@ -103,6 +103,47 @@ a:hover{
     content: "🧮";
     margin-left: 10px;
 }
+		/* تنظیم تصاویر */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* جلوگیری از بیرون‌زدگی محتوا */
+* {
+    box-sizing: border-box;
+}
+
+/* تنظیم صفحه */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* تنظیم نمایش در موبایل */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+}
 	</style>
 </head>
 
@@ -125,7 +166,7 @@ a:hover{
 			
 				<div class="menu">
 			<ul>		
-	<li> <a href="index4.html">صفحه اصلی</a></li>
+	<li> <a href="index.html">صفحه اصلی</a></li>
 	<li> <a href="moarefi.html">معرفی هنرستان</a></li>
 	<li> <a href="reshteh.html">معرفی رشته ها</a></li>
 	<li><a href="galeri.html">گالری تصاویر</a></li>
